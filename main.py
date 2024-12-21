@@ -37,6 +37,7 @@ con.commit()
 sroot = Tk()
 sroot.minsize(height=516,width=1150)
 sroot.configure(bg='white')
+sroot.iconbitmap("images\\hotel.ico")
 spath = "images/mypic.jpg"
 simg = ImageTk.PhotoImage(Image.open(spath))
 my = Label(sroot,image=simg)
@@ -58,6 +59,7 @@ def mainroot():
 	root.maxsize(width=1080,height=550)
 	root.configure(bg='white')
 	root.title("Made with love by shubhank")
+	root.iconbitmap("images\\hotel.ico")
 	#--------------seperator-------------------------------------------------------------------------------------------------------------------
 
 	sep = Frame(height=500,bd=1,relief='sunken',bg='white')
